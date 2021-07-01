@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 40px auto;
+}
+
+.container h3 {
+  color: whitesmoke;
+  font-size: 35px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.items {
+  padding: 15px 15px;
+}
+
+.item {
+  margin: 20px 20px;
+}

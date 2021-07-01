@@ -1,0 +1,68 @@
+.form {
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+  padding: 35px;
+  margin: 50px auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form h4 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.form .input {
+  width: 100%;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  margin: 10px 0;
+}
+
+.form button {
+  align-self: flex-end;
+  margin: 35px 0 25px;
+  color: white;
+  background: black;
+  color: whitesmoke;
+}
+
+.form button:hover {
+  background: none;
+}
+
+.form label {
+  align-self: flex-start;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: whitesmoke;
+}
+@media only screen and (max-width: 768px) {
+  .form {
+    padding: 15px;
+  }
+}
+
+.log {
+  display: flex;
+  margin-top: 30px;
+  justify-content: flex-end;
+}
+
+.reg {
+  color: yellow;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.reg:hover {
+  text-decoration: underline;
+}

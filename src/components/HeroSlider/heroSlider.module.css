@@ -1,0 +1,15 @@
+.sliderWrapper {
+  margin: 50px auto;
+}
+
+.heroImg img {
+  height: 90vh !important;
+  object-fit: contain;
+  object-position: top;
+}
+
+@media only screen and (max-width: 768px) {
+  .heroImg img {
+    height: 500px !important;
+  }
+}

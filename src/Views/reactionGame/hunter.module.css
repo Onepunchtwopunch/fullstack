@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #eeeeee;
+}
+
+#root {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.gameField {
+  min-height: 530px !important;
+  min-width: 1000px !important ;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
